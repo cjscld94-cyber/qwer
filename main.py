@@ -5,7 +5,7 @@ import os
 
 # 환경 변수 로드
 load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY=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"))
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # 앱 제목
 st.title("💬 GPT-5 Streamlit Chat")
